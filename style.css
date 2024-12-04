@@ -18,3 +18,19 @@ body {
     justify-content: space-between;
     color: #e0e0e0;
 }
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(63, 81, 181, 0.8); /* Indigo background */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffeb3b; /* Bright yellow text */
+    margin: 0;
+}
