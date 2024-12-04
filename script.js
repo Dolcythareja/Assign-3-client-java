@@ -21,3 +21,14 @@ document.getElementById("fetchCountry").addEventListener("click", async () => {
         countryInfo.innerHTML = `<p>Error: ${error.message}</p>`;
     }
 });
+function displayCountryInfo(data) {
+    const countryHTML = `
+        <h2>${data.name.common}</h2>
+        <p><strong>Capital:</strong> ${data.capital ? data.capital[0] : "N/A"}</p>
+        <p><strong>Region:</strong> ${data.region}</p>
+        <p><strong>Population:</strong> ${data.population.toLocaleString()}</p>
+        <p><strong>Flag:</strong></p>
+        <img src="${data.flags.svg}" alt="Flag of ${data.name.common}" width="150">
+    `;
+    document.getElementById("countryInfo").innerHTML = countryHTML;
+}
