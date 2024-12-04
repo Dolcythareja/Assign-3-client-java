@@ -1,1 +1,20 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: url('./images/world.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
 
+/* Container for Transparency */
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #e0e0e0;
+}
