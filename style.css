@@ -74,3 +74,43 @@ button {
 button:hover {
     background-color: #0288d1;
 }
+
+/* Country Info Section */
+#countryInfo {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#countryInfo img {
+    margin-top: 10px;
+    border: 3px solid #4caf50;
+    border-radius: 10px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(63, 81, 181, 0.8); /* Indigo background */
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #e0e0e0;
+}
+
+footer a {
+    color: #1dee38; /* Bright yellow link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
